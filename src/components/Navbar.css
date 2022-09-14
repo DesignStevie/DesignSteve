@@ -1,0 +1,37 @@
+.navbar{
+    margin: auto;
+    max-width: 1052px;
+}
+
+.navbar-container{
+    margin-top: 1.5rem;
+    display: flex;
+    align-items: center;
+}
+.navbar-logo{
+    color: #fff;
+    font-weight: 600;
+    margin-right: auto ;
+}
+.navbar-links{
+    list-style-type: none;
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;    
+    margin-left: auto;
+    text-decoration: none;
+}
+
+.navbar-links li{
+    padding: 0px 8px;
+}
+
+.link-item {
+    text-decoration: none;
+    color: #fff;
+}
+
+.link-item:hover {
+    font-weight: 600;
+    transition: 300ms;
+}
